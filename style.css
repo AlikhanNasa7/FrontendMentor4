@@ -1,0 +1,98 @@
+body{
+    background-color: hsl(185, 75%, 39%);
+    text-align: center;
+}
+*{
+    margin: 0;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+.upper-circle{
+    position: absolute;
+    top:-100%;
+    left: -25%;
+}
+
+.lower-circle{
+    position: absolute;
+    top:50%;
+    left:50%;
+}
+
+
+.card-component{
+    position: relative;
+    max-width: 350px;
+    background-color: white;
+    margin: auto;
+    margin-top: 5%;
+    border-radius: 1rem;
+    border: 1px solid hsl(185, 75%, 39%);
+}
+
+.svg{
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+.image{
+    position: absolute;
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    left:33.5%;
+    top:23%;
+    z-index: 1;
+    border-radius: 50%;
+    background-image: url(./images/image-victor.jpg);
+    border: 7px solid white;
+}
+
+.white_space{
+    width: 100%;
+    padding-top: 75px;
+    padding-bottom: 1.5rem;
+}
+
+.list{
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+}
+
+.info-box p{
+    font-size: small;
+}
+
+.info-box{
+    padding: 20px;
+}
+
+.info{
+    border-top: 1px solid rgb(224, 224, 224);
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+
+.name{
+    margin-bottom: 0.5rem;
+    font-size: 18px;
+}
+
+.list h3{
+    font-weight: 700;
+    margin: 4px;
+}
+p{
+    font-size: 15px;
+    color: rgb(115, 115, 115);
+}
+
+.name-surname{
+    margin-inline: 10px;
+    color: black;
+}
+
+.list p{
+    letter-spacing: 1px;
+}
